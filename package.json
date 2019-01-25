@@ -1,0 +1,25 @@
+{
+  "name": "ss-json2cp",
+  "version": "0.0.1",
+  "description": "Generate clipboard text for ShadowSocks mobile use by JSON config.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ss-json2cp": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hsuanXyz/ss-json2clipboard.git"
+  },
+  "author": "Hsuan Lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hsuanXyz/ss-json2clipboard/issues"
+  },
+  "homepage": "https://github.com/hsuanXyz/ss-json2clipboard#readme",
+  "dependencies": {
+    "clipboardy": "^1.2.3"
+  }
+}
